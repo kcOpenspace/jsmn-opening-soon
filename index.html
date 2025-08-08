@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSMN</title>
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main {
+      margin: auto;
+      width: 90vw;
+      max-width: 1000px;
+      display: flex;
+      align-items: center;
+    }
+
+    main div img {
+      width: 100%;
+      max-width: 26rem;
+      height: auto;
+    }
+
+    div.content {
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-family: "Cute Font", sans-serif;
+      font-weight: 600;
+      font-size: 4rem;
+      line-height: 90%;
+      padding-bottom: 20px;
+    }
+    span {
+      position: relative;
+      font-size: 120%;
+      color: #6FA4D8;
+    }
+    span::after {
+      content: "";
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 104%;
+      height: 6px;
+      border-radius: 10px;
+      background-color: #6FA4D8;
+    }
+    h3{
+      font-family: "Cute Font", sans-serif;
+      font-weight: 500;
+      font-size: 2rem;
+    }
+    @media screen and (max-width: 600px) {
+      main {
+        flex-wrap: wrap;
+      }
+      div.content {
+        padding: 20px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="img-container">
+      <img src="./img/vecteezy_a-cartoon-character-of-a-woman-in-a-lab-coat_50154112 1.png" alt="vecteezy.com cartoon woman in lab coat">
+    </div>
+    <div class="content">
+      <h2>Something <span>magical</span> medical is coming!</h2>
+      <h3>Coming soon in 2025</h3>
+      <h3>Perth, Australia</h3>
+    </div>
+  </main>
+</body>
+</html>
